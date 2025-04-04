@@ -1,0 +1,66 @@
+body {
+	background: linear-gradient(to right, skyblue, purple);
+}
+
+h1 {
+	color: #87CEEB;
+
+	font-size: 85px;
+}
+
+div {
+	text-align: center;
+	border: 100px white;
+	padding: 10px 40px;
+	background-image: linear-gradient(to right, #89c0f0 0%, #fbe6f0 100%);
+	width: 600px;
+	border-radius: 55px;
+	box-shadow: 20px 20px 50px white inset; 
+	-moz-border-radius: 25px;
+	/* 老的 Firefox */
+	padding: 2cm;
+}
+
+h2 {
+	background-image: linear-gradient(to right, #dec2ff, #b0c7a1);
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 60px;
+}
+
+h4{
+	font-size: 50px;
+	color: #c70003;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+}
+.xx {
+	color: white;
+	font-size: 20px;
+}
+
+.button {
+
+	background-image: linear-gradient(to right, #25aae1, #40e495);
+	/* Green */
+	border: none;
+	color: ghostwhite;
+	padding: 25px 80px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 40px;
+}
+
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(149, 211, 218, 0.2), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
